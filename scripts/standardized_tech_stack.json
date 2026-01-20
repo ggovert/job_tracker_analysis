@@ -1,0 +1,1286 @@
+[
+    {
+        "name_stack": "javascript",
+        "standard_name": "JavaScript",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "html/css",
+        "standard_name": "HTML/CSS",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "sql",
+        "standard_name": "SQL",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "python",
+        "standard_name": "Python",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "bash/shell",
+        "standard_name": "Bash/Shell",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "bash",
+        "standard_name": "Bash",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "shell",
+        "standard_name": "Shell",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "typescript",
+        "standard_name": "TypeScript",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "java",
+        "standard_name": "Java",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "c#",
+        "standard_name": "C#",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "c++",
+        "standard_name": "C++",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "powershell",
+        "standard_name": "PowerShell",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "c",
+        "standard_name": "C",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "php",
+        "standard_name": "PHP",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "go",
+        "standard_name": "Go",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "rust",
+        "standard_name": "Rust",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "kotlin",
+        "standard_name": "Kotlin",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "lua",
+        "standard_name": "Lua",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "assembly",
+        "standard_name": "Assembly",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "ruby",
+        "standard_name": "Ruby",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "dart",
+        "standard_name": "Dart",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "swift",
+        "standard_name": "Swift",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "r",
+        "standard_name": "R",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "groovy",
+        "standard_name": "Groovy",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "visual-basic-.net",
+        "standard_name": "Visual Basic .NET",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "vba",
+        "standard_name": "VBA",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "matlab",
+        "standard_name": "MATLAB",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "perl",
+        "standard_name": "Perl",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "gdscript",
+        "standard_name": "GDScript",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "elixir",
+        "standard_name": "Elixir",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "scala",
+        "standard_name": "Scala",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "delphi",
+        "standard_name": "Delphi",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "lisp",
+        "standard_name": "Lisp",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "micropython",
+        "standard_name": "MicroPython",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "zig",
+        "standard_name": "Zig",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "erlang",
+        "standard_name": "Erlang",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "fortran",
+        "standard_name": "Fortran",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "ada",
+        "standard_name": "Ada",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "f#",
+        "standard_name": "F#",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "ocaml",
+        "standard_name": "OCaml",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "gleam",
+        "standard_name": "Gleam",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "prolog",
+        "standard_name": "Prolog",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "cobol",
+        "standard_name": "COBOL",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "mojo",
+        "standard_name": "Mojo",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "julia",
+        "standard_name": "Julia",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "sas",
+        "standard_name": "SAS",
+        "category": "Other",
+        "is_verified": true
+    },
+    {
+        "name_stack": "pl/sql",
+        "standard_name": "PL/SQL",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "t-sql",
+        "standard_name": "T-SQL",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "solidity",
+        "standard_name": "Solidity",
+        "category": "Programming, scripting, and markup languages",
+        "is_verified": true
+    },
+    {
+        "name_stack": "postgresql",
+        "standard_name": "PostgreSQL",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "postgres",
+        "standard_name": "PostgreSQL",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "mysql",
+        "standard_name": "MySQL",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "sqlite",
+        "standard_name": "SQLite",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "microsoft-sql-server",
+        "standard_name": "Microsoft SQL Server",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "sql server",
+        "standard_name": "Microsoft SQL Server",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "redis",
+        "standard_name": "Redis",
+        "category": "Other",
+        "is_verified": true
+    },
+    {
+        "name_stack": "mongodb",
+        "standard_name": "MongoDB",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "mariadb",
+        "standard_name": "MariaDB",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "elasticsearch",
+        "standard_name": "Elasticsearch",
+        "category": "Vector Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "oracle",
+        "standard_name": "Oracle",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "dynamodb",
+        "standard_name": "DynamoDB",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "bigquery",
+        "standard_name": "BigQuery",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "supabase",
+        "standard_name": "Supabase",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "cloud-firestore",
+        "standard_name": "Cloud Firestore",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "h2",
+        "standard_name": "H2",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "firebase-realtime-database",
+        "standard_name": "Firebase Realtime Database",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "microsoft-access",
+        "standard_name": "Microsoft Access",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "cosmos-db",
+        "standard_name": "Cosmos DB",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "snowflake",
+        "standard_name": "Snowflake",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "influxdb",
+        "standard_name": "InfluxDB",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "databricks",
+        "standard_name": "Databricks",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "duckdb",
+        "standard_name": "DuckDB",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "cassandra",
+        "standard_name": "Cassandra",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "neo4j",
+        "standard_name": "Neo4J",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "valkey",
+        "standard_name": "Valkey",
+        "category": "Vector Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "clickhouse",
+        "standard_name": "ClickHouse",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "ibm-db2",
+        "standard_name": "IBM DB2",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "amazon-redshift",
+        "standard_name": "Amazon Redshift",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "cockroachdb",
+        "standard_name": "CockroachDB",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "pocketbase",
+        "standard_name": "Pocketbase",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "datomic",
+        "standard_name": "Datomic",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "milvus",
+        "standard_name": "Milvus",
+        "category": "Vector Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "pinecone",
+        "standard_name": "Pinecone",
+        "category": "Vector Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "weaviate",
+        "standard_name": "Weaviate",
+        "category": "Vector Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "chromadb",
+        "standard_name": "ChromaDB",
+        "category": "Vector Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "couchdb",
+        "standard_name": "CouchDB",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "presto",
+        "standard_name": "Presto",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "trino",
+        "standard_name": "Trino",
+        "category": "Database",
+        "is_verified": true
+    },
+    {
+        "name_stack": "docker",
+        "standard_name": "Docker",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "npm",
+        "standard_name": "npm",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "amazon-web-services-(aws)",
+        "standard_name": "Amazon Web Services (AWS)",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "aws",
+        "standard_name": "Amazon Web Services (AWS)",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "google-cloud-storage-(gcs)",
+        "standard_name": "Google Cloud Storage (GCS)",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "gcs",
+        "standard_name": "Google Cloud Storage (GCS)",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "pip",
+        "standard_name": "pip",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "k8s",
+        "standard_name": "Kubernetes",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "kubernetes",
+        "standard_name": "Kubernetes",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "microsoft-azure",
+        "standard_name": "Microsoft Azure",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "azure",
+        "standard_name": "Microsoft Azure",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "homebrew",
+        "standard_name": "Homebrew",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "vite",
+        "standard_name": "Vite",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "google-cloud-platform-(gcp)",
+        "standard_name": "Google Cloud Platform (GCP)",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "gcp",
+        "standard_name": "Google Cloud Platform (GCP)",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "make",
+        "standard_name": "Make",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "yarn",
+        "standard_name": "Yarn",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "cloudflare",
+        "standard_name": "Cloudflare",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "nuget",
+        "standard_name": "NuGet",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "apt",
+        "standard_name": "APT",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "webpack",
+        "standard_name": "Webpack",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "terraform",
+        "standard_name": "Terraform",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "maven",
+        "standard_name": "Maven",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "cargo",
+        "standard_name": "Cargo",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "gradle",
+        "standard_name": "Gradle",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "pnpm",
+        "standard_name": "pnpm",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "firebase",
+        "standard_name": "Firebase",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "prometheus",
+        "standard_name": "Prometheus",
+        "category": "Observability",
+        "is_verified": true
+    },
+    {
+        "name_stack": "ansible",
+        "standard_name": "Ansible",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "podman",
+        "standard_name": "Podman",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "chocolatey",
+        "standard_name": "Chocolatey",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "composer",
+        "standard_name": "Composer",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "msbuild",
+        "standard_name": "MSBuild",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "digital-ocean",
+        "standard_name": "Digital Ocean",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "vercel",
+        "standard_name": "Vercel",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "poetry",
+        "standard_name": "Poetry",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "datadog",
+        "standard_name": "Datadog",
+        "category": "Observability",
+        "is_verified": true
+    },
+    {
+        "name_stack": "pacman",
+        "standard_name": "Pacman",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "netlify",
+        "standard_name": "Netlify",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "bun",
+        "standard_name": "Bun",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "heroku",
+        "standard_name": "Heroku",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "ninja",
+        "standard_name": "Ninja",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "splunk",
+        "standard_name": "Splunk",
+        "category": "Observability",
+        "is_verified": true
+    },
+    {
+        "name_stack": "new-relic",
+        "standard_name": "New Relic",
+        "category": "Observability",
+        "is_verified": true
+    },
+    {
+        "name_stack": "railway",
+        "standard_name": "Railway",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "ibm-cloud",
+        "standard_name": "IBM Cloud",
+        "category": "Cloud Platform",
+        "is_verified": true
+    },
+    {
+        "name_stack": "github-actions",
+        "standard_name": "Github Actions",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "circleci",
+        "standard_name": "CircleCI",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "jenkins",
+        "standard_name": "Jenkins",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "argocd",
+        "standard_name": "ArgoCD",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "pulumi",
+        "standard_name": "Pulumi",
+        "category": "DevOps / CI/CD",
+        "is_verified": true
+    },
+    {
+        "name_stack": "node.js",
+        "standard_name": "Node.js",
+        "category": "Other",
+        "is_verified": true
+    },
+    {
+        "name_stack": "react",
+        "standard_name": "React",
+        "category": "Frontend Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "jquery",
+        "standard_name": "jQuery",
+        "category": "Frontend Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "next.js",
+        "standard_name": "Next.js",
+        "category": "Frontend Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "express.js",
+        "standard_name": "Express.js",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "asp.net-core",
+        "standard_name": "ASP.NET Core",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "angular",
+        "standard_name": "Angular",
+        "category": "Frontend Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "vue.js",
+        "standard_name": "Vue.js",
+        "category": "Frontend Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "fastapi",
+        "standard_name": "FastAPI",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "spring-boot",
+        "standard_name": "Spring Boot",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "flask",
+        "standard_name": "Flask",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "asp.net",
+        "standard_name": "ASP.NET",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "wordpress",
+        "standard_name": "WordPress",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "django",
+        "standard_name": "Django",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "laravel",
+        "standard_name": "Laravel",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "angularjs",
+        "standard_name": "AngularJS",
+        "category": "Frontend Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "svelte",
+        "standard_name": "Svelte",
+        "category": "Frontend Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "blazor",
+        "standard_name": "Blazor",
+        "category": "Frontend Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "nestjs",
+        "standard_name": "NestJS",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "ruby-on-rails",
+        "standard_name": "Ruby on Rails",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "rails",
+        "standard_name": "Ruby on Rails",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "astro",
+        "standard_name": "Astro",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "deno",
+        "standard_name": "Deno",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "symfony",
+        "standard_name": "Symfony",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "nuxt.js",
+        "standard_name": "Nuxt.js",
+        "category": "Frontend Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "fastify",
+        "standard_name": "Fastify",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "axum",
+        "standard_name": "Axum",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "phoenix",
+        "standard_name": "Phoenix",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "drupal",
+        "standard_name": "Drupal",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "tailwind-css",
+        "standard_name": "Tailwind CSS",
+        "category": "Frontend Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "bootstrap",
+        "standard_name": "Bootstrap",
+        "category": "Frontend Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "flutter",
+        "standard_name": "Flutter",
+        "category": "Mobile Development",
+        "is_verified": true
+    },
+    {
+        "name_stack": "react-native",
+        "standard_name": "React Native",
+        "category": "Mobile Development",
+        "is_verified": true
+    },
+    {
+        "name_stack": "react native",
+        "standard_name": "React Native",
+        "category": "Mobile Development",
+        "is_verified": true
+    },
+    {
+        "name_stack": "streamlit",
+        "standard_name": "Streamlit",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "gradio",
+        "standard_name": "Gradio",
+        "category": "Web Framework",
+        "is_verified": true
+    },
+    {
+        "name_stack": "pandas",
+        "standard_name": "Pandas",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "numpy",
+        "standard_name": "NumPy",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "scikit-learn",
+        "standard_name": "Scikit-Learn",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "pytorch",
+        "standard_name": "PyTorch",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "tensorflow",
+        "standard_name": "TensorFlow",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "keras",
+        "standard_name": "Keras",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "spark",
+        "standard_name": "Spark",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "pyspark",
+        "standard_name": "PySpark",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "dask",
+        "standard_name": "Dask",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "ray",
+        "standard_name": "Ray",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "polars",
+        "standard_name": "Polars",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "hadoop",
+        "standard_name": "Hadoop",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "kafka",
+        "standard_name": "Kafka",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "flink",
+        "standard_name": "Flink",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "xgboost",
+        "standard_name": "XGBoost",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "lightgbm",
+        "standard_name": "LightGBM",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "openai",
+        "standard_name": "OpenAI",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "anthropic",
+        "standard_name": "Anthropic",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "langchain",
+        "standard_name": "LangChain",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "llamaindex",
+        "standard_name": "LlamaIndex",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "hugging-face",
+        "standard_name": "Hugging Face",
+        "category": "AI / Machine Learning",
+        "is_verified": true
+    },
+    {
+        "name_stack": "nlp",
+        "standard_name": "NLP",
+        "category": "Other",
+        "is_verified": true
+    },
+    {
+        "name_stack": "llm",
+        "standard_name": "LLM",
+        "category": "Other",
+        "is_verified": true
+    },
+    {
+        "name_stack": "dbt",
+        "standard_name": "dbt",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "airflow",
+        "standard_name": "Airflow",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "dagster",
+        "standard_name": "Dagster",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "prefect",
+        "standard_name": "Prefect",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "mage",
+        "standard_name": "Mage",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "fivetran",
+        "standard_name": "Fivetran",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "airbyte",
+        "standard_name": "Airbyte",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "tableau",
+        "standard_name": "Tableau",
+        "category": "BI & Visualization",
+        "is_verified": true
+    },
+    {
+        "name_stack": "power-bi",
+        "standard_name": "Power BI",
+        "category": "BI & Visualization",
+        "is_verified": true
+    },
+    {
+        "name_stack": "looker",
+        "standard_name": "Looker",
+        "category": "BI & Visualization",
+        "is_verified": true
+    },
+    {
+        "name_stack": "metabase",
+        "standard_name": "Metabase",
+        "category": "BI & Visualization",
+        "is_verified": true
+    },
+    {
+        "name_stack": "superset",
+        "standard_name": "Superset",
+        "category": "BI & Visualization",
+        "is_verified": true
+    },
+    {
+        "name_stack": "grafana",
+        "standard_name": "Grafana",
+        "category": "Observability",
+        "is_verified": true
+    },
+    {
+        "name_stack": "great-expectations",
+        "standard_name": "Great Expectations",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "apache-beam",
+        "standard_name": "Apache Beam",
+        "category": "Data Engineering",
+        "is_verified": true
+    },
+    {
+        "name_stack": "prisma",
+        "standard_name": "Prisma",
+        "category": "Other",
+        "is_verified": true
+    }
+]

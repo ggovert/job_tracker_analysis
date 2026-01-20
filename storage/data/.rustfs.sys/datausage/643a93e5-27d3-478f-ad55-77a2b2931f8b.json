@@ -1,0 +1,84 @@
+{
+  "format_version": 1,
+  "meta": {
+    "disk_id": "643a93e5-27d3-478f-ad55-77a2b2931f8b",
+    "pool_index": 0,
+    "set_index": 0,
+    "disk_index": 0
+  },
+  "last_update": {
+    "secs_since_epoch": 1768907840,
+    "nanos_since_epoch": 886847092
+  },
+  "buckets_usage": {
+    "bronze": {
+      "size": 2931679,
+      "replication_pending_size_v1": 0,
+      "replication_failed_size_v1": 0,
+      "replicated_size_v1": 0,
+      "replication_pending_count_v1": 0,
+      "replication_failed_count_v1": 0,
+      "objects_count": 12,
+      "object_size_histogram": {},
+      "object_versions_histogram": {},
+      "versions_count": 23,
+      "delete_markers_count": 10,
+      "replica_size": 0,
+      "replica_count": 0,
+      "replication_info": {}
+    },
+    "metadata": {
+      "size": 33282,
+      "replication_pending_size_v1": 0,
+      "replication_failed_size_v1": 0,
+      "replicated_size_v1": 0,
+      "replication_pending_count_v1": 0,
+      "replication_failed_count_v1": 0,
+      "objects_count": 1,
+      "object_size_histogram": {},
+      "object_versions_histogram": {},
+      "versions_count": 1,
+      "delete_markers_count": 0,
+      "replica_size": 0,
+      "replica_count": 0,
+      "replication_info": {}
+    },
+    "gold": {
+      "size": 484982,
+      "replication_pending_size_v1": 0,
+      "replication_failed_size_v1": 0,
+      "replicated_size_v1": 0,
+      "replication_pending_count_v1": 0,
+      "replication_failed_count_v1": 0,
+      "objects_count": 5,
+      "object_size_histogram": {},
+      "object_versions_histogram": {},
+      "versions_count": 11,
+      "delete_markers_count": 2,
+      "replica_size": 0,
+      "replica_count": 0,
+      "replication_info": {}
+    },
+    "silver": {
+      "size": 24306364,
+      "replication_pending_size_v1": 0,
+      "replication_failed_size_v1": 0,
+      "replicated_size_v1": 0,
+      "replication_pending_count_v1": 0,
+      "replication_failed_count_v1": 0,
+      "objects_count": 85,
+      "object_size_histogram": {},
+      "object_versions_histogram": {},
+      "versions_count": 171,
+      "delete_markers_count": 86,
+      "replica_size": 0,
+      "replica_count": 0,
+      "replication_info": {}
+    }
+  },
+  "buckets_count": 4,
+  "objects_total_count": 103,
+  "versions_total_count": 206,
+  "delete_markers_total_count": 98,
+  "objects_total_size": 27756307
+}

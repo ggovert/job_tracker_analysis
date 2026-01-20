@@ -1,0 +1,42 @@
+[2026-01-18T00:57:35.725+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-01-18T00:57:36.341+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: silver_layer_sensor_driven.wait_for_bronze_data manual__2026-01-18T00:57:34.191110+00:00 [queued]>
+[2026-01-18T00:57:36.355+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: silver_layer_sensor_driven.wait_for_bronze_data manual__2026-01-18T00:57:34.191110+00:00 [queued]>
+[2026-01-18T00:57:36.356+0000] {taskinstance.py:2856} INFO - Starting attempt 1 of 2
+[2026-01-18T00:57:36.398+0000] {taskinstance.py:2879} INFO - Executing <Task(S3KeySensor): wait_for_bronze_data> on 2026-01-18 00:57:34.191110+00:00
+[2026-01-18T00:57:36.410+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'silver_layer_sensor_driven', 'wait_for_bronze_data', 'manual__2026-01-18T00:57:34.191110+00:00', '--job-id', '64', '--raw', '--subdir', 'DAGS_FOLDER/bronze_to_silver.py', '--cfg-path', '/tmp/tmp84uxx6mt']
+[2026-01-18T00:57:36.416+0000] {standard_task_runner.py:105} INFO - Job 64: Subtask wait_for_bronze_data
+[2026-01-18T00:57:36.416+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=10256) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-18T00:57:36.418+0000] {standard_task_runner.py:72} INFO - Started process 10257 to run task
+[2026-01-18T00:57:36.765+0000] {task_command.py:467} INFO - Running <TaskInstance: silver_layer_sensor_driven.wait_for_bronze_data manual__2026-01-18T00:57:34.191110+00:00 [running]> on host f24469a8e3b4
+[2026-01-18T00:57:37.131+0000] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='silver_layer_sensor_driven' AIRFLOW_CTX_TASK_ID='wait_for_bronze_data' AIRFLOW_CTX_EXECUTION_DATE='2026-01-18T00:57:34.191110+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-18T00:57:34.191110+00:00'
+[2026-01-18T00:57:37.133+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-01-18T00:57:37.151+0000] {baseoperator.py:405} WARNING - S3KeySensor.execute cannot be called outside TaskInstance!
+[2026-01-18T00:57:37.152+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T00:57:37.222+0000] {base.py:84} INFO - Retrieving connection 'rustfs_conn'
+[2026-01-18T00:57:37.223+0000] {connection_wrapper.py:388} INFO - AWS Connection (conn_id='rustfs_conn', conn_type='aws') credentials retrieved from login and password.
+[2026-01-18T00:58:37.484+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T00:59:37.529+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:00:37.586+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:01:37.634+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:02:37.693+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:03:37.746+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:04:37.816+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:05:37.873+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:06:37.923+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:07:37.972+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:08:38.031+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:09:38.096+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:10:38.196+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:11:38.303+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:12:38.351+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:13:38.421+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:14:38.481+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:15:38.545+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:16:38.602+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T01:17:10.283+0000] {local_task_job_runner.py:341} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2026-01-18T01:17:10.284+0000] {local_task_job_runner.py:240} INFO - ::endgroup::
+[2026-01-18T01:17:10.293+0000] {process_utils.py:132} INFO - Sending 15 to group 10257. PIDs of all processes in the group: [10257]
+[2026-01-18T01:17:10.294+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 10257
+[2026-01-18T01:17:10.295+0000] {taskinstance.py:3083} ERROR - Received SIGTERM. Terminating subprocesses.
+[2026-01-18T01:17:10.403+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-01-18T01:17:10.428+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=10257, status='terminated', exitcode=0, started='00:57:36') (10257) terminated with exit code 0

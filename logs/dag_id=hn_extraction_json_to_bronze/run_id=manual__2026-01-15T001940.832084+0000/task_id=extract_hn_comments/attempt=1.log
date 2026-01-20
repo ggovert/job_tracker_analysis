@@ -1,0 +1,24 @@
+[2026-01-15T00:19:42.897+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-01-15T00:19:43.016+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hn_extraction_json_to_bronze.extract_hn_comments manual__2026-01-15T00:19:40.832084+00:00 [queued]>
+[2026-01-15T00:19:43.029+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hn_extraction_json_to_bronze.extract_hn_comments manual__2026-01-15T00:19:40.832084+00:00 [queued]>
+[2026-01-15T00:19:43.031+0000] {taskinstance.py:2856} INFO - Starting attempt 1 of 2
+[2026-01-15T00:19:43.054+0000] {taskinstance.py:2879} INFO - Executing <Task(PythonOperator): extract_hn_comments> on 2026-01-15 00:19:40.832084+00:00
+[2026-01-15T00:19:43.067+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=3203) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-15T00:19:43.069+0000] {standard_task_runner.py:72} INFO - Started process 3204 to run task
+[2026-01-15T00:19:43.067+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'hn_extraction_json_to_bronze', 'extract_hn_comments', 'manual__2026-01-15T00:19:40.832084+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/hn_extraction_dag.py', '--cfg-path', '/tmp/tmp8bhwya2z']
+[2026-01-15T00:19:43.072+0000] {standard_task_runner.py:105} INFO - Job 10: Subtask extract_hn_comments
+[2026-01-15T00:19:43.665+0000] {task_command.py:467} INFO - Running <TaskInstance: hn_extraction_json_to_bronze.extract_hn_comments manual__2026-01-15T00:19:40.832084+00:00 [running]> on host 45abd921df1f
+[2026-01-15T00:19:44.282+0000] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hn_extraction_json_to_bronze' AIRFLOW_CTX_TASK_ID='extract_hn_comments' AIRFLOW_CTX_EXECUTION_DATE='2026-01-15T00:19:40.832084+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-15T00:19:40.832084+00:00'
+[2026-01-15T00:19:44.283+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-01-15T00:19:44.877+0000] {logging_mixin.py:190} INFO - Invalid checkpoint value: 2026-01-14T20:36:44. Resetting to first_of_month
+[2026-01-15T00:19:44.878+0000] {logging_mixin.py:190} INFO - Checking for new comments in thread 46466074 since 1767225600
+[2026-01-15T00:19:45.665+0000] {logging_mixin.py:190} WARNING - /opt/airflow/scripts/extrcat_bronze.py:94 MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+[2026-01-15T00:19:46.101+0000] {logging_mixin.py:190} INFO - Successfully uploaded to rustfs://bronze/hackernews/jobs_2026-01-15-00-19-45.json
+[2026-01-15T00:19:46.206+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2026-01-15T00:19:46.252+0000] {logging_mixin.py:190} INFO - Successfully landed 289 comments to RustFS. New checkpoint: 2026-01-14T20:36:44
+[2026-01-15T00:19:46.253+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-01-15T00:19:46.355+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-01-15T00:19:46.356+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=hn_extraction_json_to_bronze, task_id=extract_hn_comments, run_id=manual__2026-01-15T00:19:40.832084+00:00, execution_date=20260115T001940, start_date=20260115T001943, end_date=20260115T001946
+[2026-01-15T00:19:46.419+0000] {local_task_job_runner.py:261} INFO - Task exited with return code 0
+[2026-01-15T00:19:46.569+0000] {taskinstance.py:3891} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-01-15T00:19:46.575+0000] {local_task_job_runner.py:240} INFO - ::endgroup::

@@ -1,0 +1,23 @@
+[2026-01-18T02:38:49.038+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-01-18T02:38:49.247+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: silver_layer_sensor_driven.wait_for_bronze_data manual__2026-01-18T02:38:46.922659+00:00 [queued]>
+[2026-01-18T02:38:49.272+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: silver_layer_sensor_driven.wait_for_bronze_data manual__2026-01-18T02:38:46.922659+00:00 [queued]>
+[2026-01-18T02:38:49.273+0000] {taskinstance.py:2856} INFO - Starting attempt 1 of 2
+[2026-01-18T02:38:49.324+0000] {taskinstance.py:2879} INFO - Executing <Task(S3KeySensor): wait_for_bronze_data> on 2026-01-18 02:38:46.922659+00:00
+[2026-01-18T02:38:49.348+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=19010) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-18T02:38:49.351+0000] {standard_task_runner.py:72} INFO - Started process 19026 to run task
+[2026-01-18T02:38:49.347+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'silver_layer_sensor_driven', 'wait_for_bronze_data', 'manual__2026-01-18T02:38:46.922659+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/bronze_to_silver.py', '--cfg-path', '/tmp/tmpvddhxj7q']
+[2026-01-18T02:38:49.353+0000] {standard_task_runner.py:105} INFO - Job 68: Subtask wait_for_bronze_data
+[2026-01-18T02:38:49.942+0000] {task_command.py:467} INFO - Running <TaskInstance: silver_layer_sensor_driven.wait_for_bronze_data manual__2026-01-18T02:38:46.922659+00:00 [running]> on host f24469a8e3b4
+[2026-01-18T02:38:50.520+0000] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='silver_layer_sensor_driven' AIRFLOW_CTX_TASK_ID='wait_for_bronze_data' AIRFLOW_CTX_EXECUTION_DATE='2026-01-18T02:38:46.922659+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-18T02:38:46.922659+00:00'
+[2026-01-18T02:38:50.523+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-01-18T02:38:50.562+0000] {baseoperator.py:405} WARNING - S3KeySensor.execute cannot be called outside TaskInstance!
+[2026-01-18T02:38:50.564+0000] {s3.py:118} INFO - Poking for key : s3://bronze/hackernews/jobs_2026-01-18*.json
+[2026-01-18T02:38:50.686+0000] {base.py:84} INFO - Retrieving connection 'rustfs_conn'
+[2026-01-18T02:38:50.688+0000] {connection_wrapper.py:388} INFO - AWS Connection (conn_id='rustfs_conn', conn_type='aws') credentials retrieved from login and password.
+[2026-01-18T02:39:37.528+0000] {local_task_job_runner.py:341} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2026-01-18T02:39:37.529+0000] {local_task_job_runner.py:240} INFO - ::endgroup::
+[2026-01-18T02:39:37.532+0000] {process_utils.py:132} INFO - Sending 15 to group 19026. PIDs of all processes in the group: [19026]
+[2026-01-18T02:39:37.533+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 19026
+[2026-01-18T02:39:37.534+0000] {taskinstance.py:3083} ERROR - Received SIGTERM. Terminating subprocesses.
+[2026-01-18T02:39:37.702+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-01-18T02:39:37.747+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=19026, status='terminated', exitcode=0, started='02:38:49') (19026) terminated with exit code 0

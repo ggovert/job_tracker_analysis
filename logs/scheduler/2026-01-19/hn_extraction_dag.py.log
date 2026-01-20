@@ -1,0 +1,189 @@
+[2026-01-19T00:38:23.747+0000] {processor.py:186} INFO - Started process (PID=32500) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:38:23.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:38:23.757+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:38:23.757+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:38:24.383+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:38:24.510+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:38:24.510+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:38:24.586+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:38:24.586+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:38:24.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.908 seconds
+[2026-01-19T00:38:55.333+0000] {processor.py:186} INFO - Started process (PID=32527) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:38:55.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:38:55.335+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:38:55.335+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:38:55.693+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:38:55.754+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:38:55.754+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:38:55.787+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:38:55.787+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:38:55.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.492 seconds
+[2026-01-19T00:39:26.207+0000] {processor.py:186} INFO - Started process (PID=32552) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:39:26.209+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:39:26.211+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:39:26.210+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:39:26.463+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:39:26.509+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:39:26.509+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:39:26.532+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:39:26.532+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:39:26.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.371 seconds
+[2026-01-19T00:39:57.160+0000] {processor.py:186} INFO - Started process (PID=32577) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:39:57.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:39:57.164+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:39:57.163+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:39:57.606+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:39:57.744+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:39:57.741+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:39:57.813+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:39:57.813+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:39:57.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.723 seconds
+[2026-01-19T00:40:28.341+0000] {processor.py:186} INFO - Started process (PID=32602) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:40:28.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:40:28.345+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:40:28.345+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:40:28.827+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:40:28.950+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:40:28.950+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:40:29.038+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:40:29.037+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:40:29.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.757 seconds
+[2026-01-19T00:41:00.043+0000] {processor.py:186} INFO - Started process (PID=32627) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:41:00.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:41:00.049+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:41:00.048+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:41:00.664+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:41:00.792+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:41:00.791+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:41:00.894+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:41:00.893+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:41:01.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.968 seconds
+[2026-01-19T00:41:31.841+0000] {processor.py:186} INFO - Started process (PID=32652) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:41:31.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:41:31.846+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:41:31.845+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:41:32.297+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:41:32.397+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:41:32.396+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:41:32.449+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:41:32.448+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:41:32.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.712 seconds
+[2026-01-19T00:42:03.547+0000] {processor.py:186} INFO - Started process (PID=32677) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:42:03.551+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:42:03.555+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:42:03.554+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:42:04.036+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:42:04.163+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:42:04.162+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:42:04.221+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:42:04.221+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:42:04.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.765 seconds
+[2026-01-19T00:42:35.194+0000] {processor.py:186} INFO - Started process (PID=32702) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:42:35.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:42:35.203+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:42:35.202+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:42:35.788+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:42:35.974+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:42:35.973+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:42:36.100+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:42:36.099+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:42:36.175+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.992 seconds
+[2026-01-19T00:43:06.487+0000] {processor.py:186} INFO - Started process (PID=32727) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:43:06.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:43:06.491+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:43:06.491+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:43:06.998+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:43:07.164+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:43:07.163+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:43:07.260+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:43:07.260+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:43:07.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.881 seconds
+[2026-01-19T00:43:37.846+0000] {processor.py:186} INFO - Started process (PID=32767) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:43:37.850+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:43:37.852+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:43:37.851+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:43:38.467+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:43:38.716+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:43:38.716+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:43:38.806+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:43:38.806+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:43:38.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 1.088 seconds
+[2026-01-19T00:44:09.497+0000] {processor.py:186} INFO - Started process (PID=32794) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:44:09.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:44:09.501+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:44:09.501+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:44:10.032+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:44:10.201+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:44:10.201+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:44:10.278+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:44:10.278+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:44:10.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.869 seconds
+[2026-01-19T00:44:41.404+0000] {processor.py:186} INFO - Started process (PID=32819) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:44:41.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:44:41.409+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:44:41.408+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:44:42.255+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:44:45.084+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:44:45.083+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:44:45.373+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:44:45.372+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:44:46.117+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 4.725 seconds
+[2026-01-19T00:45:16.493+0000] {processor.py:186} INFO - Started process (PID=32844) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:45:16.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:45:16.505+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:45:16.504+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:45:16.926+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:45:17.279+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:45:17.278+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:45:17.332+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:45:17.331+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:45:17.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.947 seconds
+[2026-01-19T00:45:47.644+0000] {processor.py:186} INFO - Started process (PID=32869) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:45:47.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:45:47.649+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:45:47.648+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:45:48.065+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:45:48.172+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:45:48.172+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:45:48.226+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:45:48.225+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:45:48.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.668 seconds
+[2026-01-19T00:46:18.497+0000] {processor.py:186} INFO - Started process (PID=32894) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:46:18.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:46:18.501+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:46:18.500+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:46:19.004+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:46:19.111+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:46:19.108+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:46:19.196+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:46:19.195+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:46:19.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.801 seconds
+[2026-01-19T00:46:49.945+0000] {processor.py:186} INFO - Started process (PID=32919) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:46:49.949+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:46:49.954+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:46:49.954+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:46:50.434+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:46:50.576+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:46:50.576+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:46:50.644+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:46:50.644+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:46:50.725+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.794 seconds
+[2026-01-19T00:47:21.576+0000] {processor.py:186} INFO - Started process (PID=32944) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:47:21.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:47:21.581+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:47:21.581+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:47:22.170+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:47:22.418+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:47:22.417+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:47:22.491+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:47:22.491+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:47:22.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 1.013 seconds
+[2026-01-19T00:47:53.212+0000] {processor.py:186} INFO - Started process (PID=32969) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:47:53.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:47:53.218+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:47:53.217+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:47:53.723+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:47:53.851+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:47:53.850+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:47:53.916+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:47:53.915+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:47:53.993+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.794 seconds
+[2026-01-19T00:48:24.257+0000] {processor.py:186} INFO - Started process (PID=32994) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:48:24.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:48:24.519+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:48:24.518+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:48:24.741+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:48:25.026+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:48:25.025+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:48:25.098+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:48:25.098+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:48:25.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.933 seconds
+[2026-01-19T00:48:55.819+0000] {processor.py:186} INFO - Started process (PID=33019) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:48:55.821+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:48:55.823+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:48:55.823+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:48:56.016+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:48:56.144+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:48:56.143+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:48:56.223+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:48:56.223+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:48:56.295+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.492 seconds
+[2026-01-19T00:49:26.546+0000] {processor.py:186} INFO - Started process (PID=33044) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:49:26.549+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:49:26.552+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:49:26.551+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:49:26.778+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:49:26.939+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:49:26.937+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:49:27.029+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:49:27.029+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:49:27.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.601 seconds
+[2026-01-19T00:49:57.751+0000] {processor.py:186} INFO - Started process (PID=33069) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:49:57.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:49:57.758+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:49:57.757+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:49:58.054+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:49:58.253+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:49:58.252+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:49:58.351+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:49:58.350+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:49:58.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.710 seconds
+[2026-01-19T00:50:29.143+0000] {processor.py:186} INFO - Started process (PID=33094) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:50:29.145+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:50:29.148+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:50:29.147+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:50:29.343+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:50:29.536+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:50:29.535+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:50:29.630+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:50:29.630+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:50:29.726+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.596 seconds
+[2026-01-19T00:51:00.413+0000] {processor.py:186} INFO - Started process (PID=33119) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:51:00.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:51:00.418+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:51:00.417+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:51:00.697+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:51:00.946+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:51:00.945+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:51:01.049+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:51:01.048+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:51:01.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.763 seconds
+[2026-01-19T00:51:31.828+0000] {processor.py:186} INFO - Started process (PID=33144) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:51:31.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:51:31.842+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:51:31.841+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:51:32.208+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:51:32.414+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:51:32.413+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:51:32.517+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:51:32.516+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:51:32.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.805 seconds
+[2026-01-19T00:52:03.033+0000] {processor.py:186} INFO - Started process (PID=33169) to work on /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:52:03.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hn_extraction_dag.py for tasks to queue
+[2026-01-19T00:52:03.042+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:52:03.040+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:52:03.318+0000] {processor.py:925} INFO - DAG(s) 'hn_extraction_json_to_bronze' retrieved from /opt/airflow/dags/hn_extraction_dag.py
+[2026-01-19T00:52:03.474+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:52:03.473+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-01-19T00:52:03.577+0000] {logging_mixin.py:190} INFO - [2026-01-19T00:52:03.577+0000] {dag.py:4138} INFO - Setting next_dagrun for hn_extraction_json_to_bronze to 2026-01-19 00:00:00+00:00, run_after=2026-01-20 00:00:00+00:00
+[2026-01-19T00:52:03.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hn_extraction_dag.py took 0.645 seconds

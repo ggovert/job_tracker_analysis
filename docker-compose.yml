@@ -1,0 +1,181 @@
+services:
+  rustfs:
+    image: rustfs/rustfs:latest
+    container_name: rustfs
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      - RUSTFS_VOLUMES=/data
+      - RUSTFS_ACCESS_KEY=${RUSTFS_ACCESS_KEY}
+      - RUSTFS_SECRET_KEY=${RUSTFS_SECRET_KEY}
+      - RUSTFS_CONSOLE_ENABLE=true
+    volumes:
+      - ./storage/data:/data
+      - ./storage/logs:/app/logs
+    networks:
+      - airflow-network
+
+  # Postgres for airflow
+  postgres:
+    image: postgres:15-alpine
+    container_name: airflow-db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    volumes:
+      - ./storage/postgres:/var/lib/postgresql/data
+    networks:
+      - airflow-network
+
+  # --- SPARK CLUSTER ---
+  spark-master:
+    image: apache/spark:3.5.0
+    container_name: spark-master
+    user: root # Needed for permissions on some Docker setups
+    environment:
+      - SPARK_MODE=master
+    ports:
+      - "8081:8080" # Spark Master Web UI
+      - "7077:7077" # Cluster Communication
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
+    networks:
+      - airflow-network
+
+  # --- SPARK WORKER ---
+  spark-worker:
+    image: apache/spark:3.5.0
+    container_name: spark-worker
+    user: root
+    models:
+      - llm
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+    networks:
+      - airflow-network
+
+  # --- AIRFLOW COMPONENTS ---
+  airflow-webserver:
+    build: .
+    depends_on:
+      - postgres
+      - rustfs
+      - spark-master
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./scripts:/opt/airflow/scripts
+    environment:
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://postgres:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+    command: webserver
+    networks:
+      - airflow-network
+
+  airflow-scheduler:
+    build: .
+    depends_on:
+      - postgres
+      - rustfs
+      - spark-master
+
+    models:
+      - llm
+
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./scripts:/opt/airflow/scripts
+    environment:
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://postgres:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+    command: scheduler
+    networks:
+      - airflow-network
+
+  airflow-init:
+    build: .
+    depends_on:
+      - postgres
+    environment:
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+    command: >
+      bash -c "airflow db migrate &&
+      airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com"
+    networks:
+      - airflow-network
+
+  # streamlit-dashboard:
+  #   image: python:3.11-slim
+  #   container_name: job_analyzer_viz
+  #   working_dir: /app
+  #   command: >
+  #     bash -c "pip install streamlit duckdb pandas &&
+  #              streamlit run scripts/dashboard.py --server.port 8501 --server.address 0.0.0.0"
+  #   ports:
+  #     - "8501:8501"
+  #   environment:
+  #     - AWS_ACCESS_KEY_ID=rustfsadmin
+  #     - AWS_SECRET_ACCESS_KEY=rustfsadmin123
+  #   volumes:
+  #     - ./scripts:/app/scripts
+  #   networks:
+  #     - airflow-network
+  #   depends_on:
+  #     - rustfs
+
+  streamlit-dashboard:
+    build: .
+    container_name: job_analyzer_viz
+    # 1. Reset the entrypoint so it doesn't run the 'airflow' command
+    entrypoint: ["/bin/bash", "-c"]
+    # 2. Run as root temporarily to avoid permission denied errors on your Windows mount
+    user: root
+    # 3. The actual command to run streamlit
+    command: >
+      "streamlit run /opt/airflow/scripts/dashboard.py 
+      --server.port 8501 
+      --server.address 0.0.0.0 
+      --browser.gatherUsageStats false"
+    ports:
+      - "8501:8501"
+    environment:
+      - AWS_ACCESS_KEY_ID=rustfsadmin
+      - AWS_SECRET_ACCESS_KEY=rustfsadmin123
+      # Streamlit needs a home to store its credentials/config
+      - HOME=/tmp
+    volumes:
+      - ./scripts:/opt/airflow/scripts
+    networks:
+      - airflow-network
+    depends_on:
+      - rustfs
+
+models:
+  llm:
+    model: ai/smollm2
+    context_size: 4096
+    # runtime_flags:
+    #   - "--port=11434"
+
+volumes:
+  rustfs_data:
+
+networks:
+  airflow-network:
+    driver: bridge
